@@ -1,0 +1,29 @@
+/*
+Theme Name: Tavola Mia theme
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 4.9.10.1652860869
+Updated: 2022-05-18 08:01:09
+
+*/
+
+.et_pb_menu .et-menu > li {
+  padding-right: 38px !important;
+}
+
+.et_pb_menu_0_tb_header.et_pb_menu ul li.current-menu-item a {
+  border-bottom: 2px solid #c57647;
+  padding-bottom: 15px !important;
+}
+
+a.et_pb_menu__icon {
+  font-size: 20px;
+}
+
+.mobile_nav.opened .mobile_menu_bar:before {
+  content: "\4d";
+}
