@@ -11,7 +11,27 @@ Updated: 2022-05-18 08:01:09
 
 */
 
-.et_pb_menu .et-menu > li {
+@font-face {
+  font-family: "La Belle Aurore", cursive;
+  src: url(https://public_html/kea/tavolamia/wp-content/themes/tavolamia/fonts/LaBelleAurore-Regular.ttf);
+}
+
+menu-item-2147480008 {
+  padding-right: 14px !important;
+}
+
+.menu-item-368 {
+  padding-right: 14px !important;
+}
+
+/* .et_pb_menu .et-menu > li {
+  padding-right: 38px !important;
+} */
+
+.menu-item-486,
+.menu-item-367,
+.menu-item-370,
+.menu-item-369 {
   padding-right: 38px !important;
 }
 
@@ -26,4 +46,207 @@ a.et_pb_menu__icon {
 
 .mobile_nav.opened .mobile_menu_bar:before {
   content: "\4d";
+}
+
+.et_pb_scroll_top.et-pb-icon {
+  text-align: center;
+  background: #c57647;
+  font-size: 35px;
+  color: #f8f4ec;
+}
+
+.sb_instagram_header {
+  display: none !important;
+}
+
+.sbi_photo_wrap {
+  /* border: 2px solid #3b746e !important; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* Single product design */
+
+#main-content {
+  background-color: #f8f4ec;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+  font-size: 16px;
+  color: black;
+  font-weight: 300;
+}
+
+.woocommerce.price {
+  font-size: 18px;
+}
+
+.woocommerce-product-details__short-description {
+  font-weight: 300;
+}
+
+.woocommerce-tabs,
+.product_meta {
+  display: none !important;
+}
+
+.woocommerce div.product .product_title {
+  text-align: center;
+}
+
+h1.product_title {
+  font-size: 38px !important;
+}
+
+.entry-summary p.price span {
+  font-size: 20px !important;
+}
+
+p.price {
+  text-align: center;
+}
+
+/* Variationsknapper + hover */
+
+li.variable-item {
+  border: solid 2px #3b746e;
+  background-color: #f8f4ec !important;
+  box-shadow: none !important;
+  font-weight: 300;
+}
+
+li.variable-item:hover {
+  color: #f8f4ec;
+  background-color: #3b746e !important;
+  box-shadow: none !important;
+  font-weight: 300;
+}
+
+#left-area ul,
+.comment-content ul,
+.entry-content ul,
+.et-l--body ul,
+.et-l--footer ul,
+.et-l--header ul,
+body.et-pb-preview #main-content .container ul {
+  list-style-type: circle;
+}
+
+.label {
+  display: none;
+}
+
+.woocommerce-page div.product form.cart,
+.woocommerce div.product form.cart {
+  margin: 0;
+}
+
+.øverest {
+  font-family: "La Belle Aurore", cursive;
+  color: #c57647;
+  font-size: 18px !important;
+}
+
+button.single_add_to_cart_button.button.alt {
+  font-weight: 300;
+}
+
+.woocommerce-page .quantity input.qty,
+.woocommerce .quantity input.qty {
+  font-weight: 300 !important;
+  font-size: 16px !important;
+  color: black !important;
+  border-radius: 3px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: #f8f4ec !important;
+  height: 40px;
+}
+
+.tinvwl_add_to_wishlist_button {
+  font-weight: 300;
+}
+
+.woo-variation-swatches
+  .variable-items-wrapper
+  .variable-item:not(.radio-variable-item).selected,
+.woo-variation-swatches
+  .variable-items-wrapper
+  .variable-item:not(.radio-variable-item).selected:hover {
+  background-color: #3b746e !important;
+  color: #f8f4ec !important;
+}
+
+body,
+input,
+textarea,
+select {
+  font-family: "Oswald", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 300 !important;
+}
+
+.button {
+  font-weight: 300 !important;
+}
+
+.select2-container--default .select2-selection--single {
+  border: solid 2px #3b746e;
+  background-color: #f8f4ec !important;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  outline: 0;
+  line-height: normal;
+  border: solid 2px #3b746e;
+  background-color: #f8f4ec !important;
+}
+
+strong {
+  color: #c57647;
+}
+
+#content-area table td,
+#content-area table th,
+#content-area table tr,
+#main-content table.cart td,
+#main-content table.cart th,
+#main-content table.cart tr,
+table.cart td,
+table.cart th,
+table.cart tr {
+  color: black;
+  font-weight: 300;
+}
+
+.woocommerce ul#shipping_method .amount {
+  font-weight: 300;
+}
+
+.tinv-header {
+  display: none;
+}
+
+.pil {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+.hoppeeffekt {
+  animation-name: hoppeeffekt;
+  animation-timing-function: ease;
+}
+@keyframes hoppeeffekt {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
